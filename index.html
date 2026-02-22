@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMC104 - Digital Design</title>
+    <!-- Google Fonts: Inter for UI, Space Grotesk for headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating Navigation -->
+    <nav class="brutal-nav" aria-label="Main Navigation">
+        <a href="#" class="nav-logo" aria-label="Back to Top">NMC104</a>
+        <div class="nav-links" role="list">
+            <a href="#about" role="listitem">About</a>
+            <a href="#timeline" role="listitem">Timeline</a>
+            <a href="#tools" role="listitem">Tools</a>
+            <a href="#assessment" role="listitem">Assessment</a>
+        </div>
+        <button class="menu-btn" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">☰</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero section-spacing">
+        <div class="hero-content">
+            <div class="badge brutal-badge">First Year &bull; Spring 2026</div>
+            <h1 class="hero-title">Digital Design<span class="blinking-cursor">_</span></h1>
+            <p class="hero-subtitle">Learn the theory, master the tools, and build your digital portfolio from scratch.
+            </p>
+            <a href="#timeline" class="brutal-button primary">Explore the Syllabus ↓</a>
+        </div>
+        <!-- Decorative floating elements -->
+        <div class="decoration dec-1">🎨</div>
+        <div class="decoration dec-2">✨</div>
+        <div class="decoration dec-3">💻</div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about section-spacing">
+        <div class="container">
+            <h2 class="section-title">What is this course?</h2>
+            <div class="about-grid">
+                <article class="brutal-card card-purple rotate-left">
+                    <div class="card-icon" aria-hidden="true">🧠</div>
+                    <h3>Theory</h3>
+                    <p>Learn the building blocks: color theory, typography, composition, and Gestalt principles.</p>
+                </article>
+                <article class="brutal-card card-pink rotate-right">
+                    <div class="card-icon" aria-hidden="true">🛠️</div>
+                    <h3>Tools</h3>
+                    <p>Get hands-on with browser-based tools like Canva and Figma. No installation needed.</p>
+                </article>
+                <article class="brutal-card card-lime rotate-left">
+                    <div class="card-icon" aria-hidden="true">🚀</div>
+                    <h3>Projects</h3>
+                    <p>Apply what you learn immediately. Build social media kits, prototypes, and a final portfolio.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline-section section-spacing bg-lavender">
+        <div class="container">
+            <h2 class="section-title">The 14-Week Roadmap</h2>
+            <p class="section-desc">No boring lectures. We design, we execute, we conquer. Class meets every Friday.</p>
+
+            <div class="timeline">
+                <!-- Week 1-6 (Module 1) -->
+                <h3 class="module-title">Module 1: Design Fundamentals & Canva</h3>
+
+                <div class="timeline-item reveal" tabindex="0">
+                    <div class="timeline-card brutal-card">
+                        <div class="timeline-header">
+                            <div class="timeline-title-wrapper">
+                                <span class="week-badge brutal-badge">Week 1</span>
+                                <h4>Introduction to Digital Design</h4>
+                            </div>
+                            <span class="date">Feb 27</span>
+                        </div>
+                        <p>What is digital design? Role of design in new media. Introduction to Canva.</p>
+                        <div class="deliverable">📝 Mood board exercise</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal" tabindex="0">
+                    <div class="timeline-card brutal-card">
+                        <div class="timeline-header">
+                            <div class="timeline-title-wrapper">
+                                <span class="week-badge brutal-badge">Week 2</span>
+                                <h4>Design Elements & Gestalt</h4>
+                            </div>
+                            <span class="date">Mar 6</span>
+                        </div>
+                        <p>Line, shape, color, texture. How the human brain perceives visual elements.</p>
+                        <div class="deliverable">📝 Gestalt collage in Canva</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal" tabindex="0">
+                    <div class="timeline-card brutal-card">
+                        <div class="timeline-header">
+                            <div class="timeline-title-wrapper">
+                                <span class="week-badge brutal-badge">Week 3</span>
+                                <h4>Principles & Color Theory</h4>
+                            </div>
+                            <span class="date">Mar 13</span>
+                        </div>
+                        <p>Balance, hierarchy, contrast. Color wheel, psychology, and creating harmonious palettes.</p>
+                        <div class="deliverable">📝 Theme poster & color palette</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal" tabindex="0">
+                    <div class="timeline-card brutal-card">
+                        <div class="timeline-header">
+                            <div class="timeline-title-wrapper">
+                                <span class="week-badge brutal-badge">Week 4</span>
+                                <h4>Typography</h4>
+                            </div>
+                            <span class="date">Mar 20</span>
+                        </div>
+                        <p>Font anatomy, pairing strategies, sizing, and building typographic hierarchy.</p>
+                        <div class="deliverable">📝 Typography-only composition</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal" tabindex="0">
+                    <div class="timeline-card brutal-card">
+                        <div class="timeline-header">
+                            <div class="timeline-title-wrapper">
+                                <span class="week-badge brutal-badge">Week 5</span>
+                                <h4>Social Media Visuals</h4>
+                            </div>
+                            <span class="date">Mar 27</span>
+                        </div>
+                        <p>Platform specs, content formats, and creating a cohesive brand language across channels.</p>
+                        <div class="deliverable bold">🔥 Start Project 1 (Social Kit)</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal" tabindex="0">
+                    <div class="timeline-card brutal-card">
+                        <div class="timeline-header">
+                            <div class="timeline-title-wrapper">
+                                <span class="week-badge brutal-badge">Week 6</span>
+                                <h4>Visual Storytelling & Data</h4>
+                            </div>
+                            <span class="date">Apr 3</span>
+                        </div>
+                        <p>Infographic design, data visualization basics, and the narrative arc in visuals.</p>
+                        <div class="deliverable bold">🔥 Project 1 (Infographic)</div>
+                    </div>
+                </div>
+
+                <!-- Midterm -->
+                <div class="timeline-item special reveal" tabindex="0">
+                    <div class="timeline-card brutal-card border-orange highlight-card midterm-glow">
+                        <div class="timeline-header">
+                            <div class="timeline-title-wrapper">
+                                <span class="week-badge brutal-badge bg-orange">Week 7</span>
+                                <h4>MIDTERM: Digital Campaign Kit</h4>
+                            </div>
+                            <span class="date text-orange">Apr 10</span>
+                        </div>
+                        <p><strong>🚨 No class session.</strong> Submit your 5-piece social media kit and infographic
+                            online by 23:59.</p>
+                    </div>
+                </div>
+
+                <!-- Week 8-9 (Module 2) -->
+                <h3 class="module-title mt-xl">Module 2: UX/UI & Figma</h3>
+
+                <div class="timeline-item reveal" tabindex="0">
+                    <div class="timeline-card brutal-card">
+                        <div class="timeline-header">
+                            <div class="timeline-title-wrapper">
+                                <span class="week-badge brutal-badge">Week 8</span>
+                                <h4>Intro to UX/UI</h4>
+                            </div>
+                            <span class="date">Apr 17</span>
+                        </div>
+                        <p>Design thinking process. User flow vs. wireframe vs. prototype. Intro to Figma.</p>
+                        <div class="deliverable">📝 Paper wireframes mapped out</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal" tabindex="0">
+                    <div class="timeline-card brutal-card">
+                        <div class="timeline-header">
+                            <div class="timeline-title-wrapper">
+                                <span class="week-badge brutal-badge">Week 9</span>
+                                <h4>Prototyping in Figma</h4>
+                            </div>
+                            <span class="date">Apr 24</span>
+                        </div>
+                        <p>Components, auto layout, and linking screens to build an interactive high-fidelity prototype.
+                        </p>
+                        <div class="deliverable bold">🔥 Start Project 2 (App Prototype)</div>
+                    </div>
+                </div>
+
+                <!-- Holiday -->
+                <div class="timeline-item special reveal" tabindex="0">
+                    <div class="timeline-card brutal-card border-red highlight-card jump-hover">
+                        <div class="timeline-header">
+                            <div class="timeline-title-wrapper">
+                                <span class="week-badge brutal-badge bg-red">Week 10</span>
+                                <h4>Labor Day (İşçi Bayramı)</h4>
+                            </div>
+                            <span class="date text-red">May 1</span>
+                        </div>
+                        <p><strong>🛠️ No class.</strong> The workers are resting today, and so should you. Put the
+                            mouse down and go outside.</p>
+                    </div>
+                </div>
+
+                <!-- Week 11-13 (Module 3) -->
+                <h3 class="module-title mt-xl">Module 3: Advanced Topics & Portfolio</h3>
+
+                <div class="timeline-item reveal" tabindex="0">
+                    <div class="timeline-card brutal-card">
+                        <div class="timeline-header">
+                            <div class="timeline-title-wrapper">
+                                <span class="week-badge brutal-badge">Week 11</span>
+                                <h4>Motion & Animation</h4>
+                            </div>
+                            <span class="date">May 8</span>
+                        </div>
+                        <p>Micro-interactions, attention economy. Using Canva Animate and CapCut for short-form video.
+                        </p>
+                        <div class="deliverable">📝 Animated social post</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal" tabindex="0">
+                    <div class="timeline-card brutal-card">
+                        <div class="timeline-header">
+                            <div class="timeline-title-wrapper">
+                                <span class="week-badge brutal-badge">Week 12</span>
+                                <h4>AI-Powered Design & Ethics</h4>
+                            </div>
+                            <span class="date">May 15</span>
+                        </div>
+                        <p>Prompt engineering (Midjourney/DALL-E) combined with human design choices. Copyright and
+                            bias.</p>
+                        <div class="deliverable">📝 AI + Designer hybrid composition</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal" tabindex="0">
+                    <div class="timeline-card brutal-card">
+                        <div class="timeline-header">
+                            <div class="timeline-title-wrapper">
+                                <span class="week-badge brutal-badge">Week 13</span>
+                                <h4>Portfolio & Personal Brand</h4>
+                            </div>
+                            <span class="date">May 22</span>
+                        </div>
+                        <p>Curation, case study writing, and defining your personal visual identity (logo, colors).</p>
+                        <div class="deliverable">📝 Finalize personal branding</div>
+                    </div>
+                </div>
+
+                <!-- Final -->
+                <div class="timeline-item special reveal" tabindex="0">
+                    <div class="timeline-card brutal-card border-gold highlight-card final-glow">
+                        <div class="timeline-header">
+                            <div class="timeline-title-wrapper">
+                                <span class="week-badge brutal-badge bg-gold">Week 14</span>
+                                <h4>FINAL: Digital Design Portfolio</h4>
+                            </div>
+                            <span class="date text-gold">May 29</span>
+                        </div>
+                        <p><strong>🏆 No class session.</strong> Submit your finalized portfolio (min 6 pieces + case
+                            studies) online by 23:59.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="tools-section section-spacing">
+        <div class="container">
+            <h2 class="section-title">The Tool Stack</h2>
+            <p class="section-desc">We use industry-standard, browser-based tools. 100% free for students.</p>
+
+            <div class="tools-grid">
+                <article class="tool-card brutal-card">
+                    <div class="tool-logo logo-canva" aria-hidden="true">C</div>
+                    <h3>Canva (Edu Pro)</h3>
+                    <p>For social media kits, presentations, infographics, and basic animations.</p>
+                </article>
+                <article class="tool-card brutal-card">
+                    <div class="tool-logo logo-figma" aria-hidden="true">F</div>
+                    <h3>Figma</h3>
+                    <p>The industry standard for UI/UX design, wireframing, and interactive prototyping.</p>
+                </article>
+                <article class="tool-card brutal-card">
+                    <div class="tool-logo logo-genai" aria-hidden="true">A</div>
+                    <h3>Gen AI</h3>
+                    <p>Midjourney, DALL-E, Firefly. Used cautiously for ideation and asset generation.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Assessment Section -->
+    <section id="assessment" class="assessment-section section-spacing bg-lavender">
+        <div class="container">
+            <h2 class="section-title">How You're Graded</h2>
+
+            <div class="grade-container brutal-card">
+                <div class="grade-row">
+                    <div class="grade-meta">
+                        <h4>Midterm: Campaign Kit</h4>
+                        <p>Due Week 7 (5 visuals + 1 infographic)</p>
+                    </div>
+                    <div class="grade-bar-wrapper">
+                        <div class="grade-bar bg-pink text-white" style="width: 40%">40%</div>
+                    </div>
+                </div>
+
+                <div class="grade-row">
+                    <div class="grade-meta">
+                        <h4>Final: Portfolio</h4>
+                        <p>Due Week 14 (Min 6 pieces + case studies)</p>
+                    </div>
+                    <div class="grade-bar-wrapper">
+                        <div class="grade-bar bg-lime" style="width: 60%">60%</div>
+                    </div>
+                </div>
+
+                <div class="grade-row bonus">
+                    <div class="grade-meta bonus">
+                        <h4>Weekly Quests & Participation (+ Bonus)</h4>
+                        <p>In-class studio practices & assignments act as bonus points added directly to your midterm
+                            and final grades.</p>
+                    </div>
+                    <div class="grade-bar-wrapper dashed">
+                        <div class="grade-bar bg-yellow full-width">+ Extra Points</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Policies Accordion -->
+            <div class="policies mt-xl">
+                <h3>Course Policies</h3>
+
+                <div class="accordion-item brutal-card" role="region" aria-labelledby="acc-btn-1">
+                    <button id="acc-btn-1" class="accordion-header" aria-expanded="false" aria-controls="acc-content-1">
+                        <span>Attendance & Active Participation</span>
+                        <span class="icon" aria-hidden="true">+</span>
+                    </button>
+                    <div id="acc-content-1" class="accordion-content">
+                        <p>This is a hands-on studio course. <strong>Active participation is expected</strong> as we
+                            will have in-class practices that directly impact your bonus points. You can miss up to
+                            <strong>9 hours</strong> (approx. 3 weeks) over the 14-week semester without formally
+                            failing the course.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item brutal-card" role="region" aria-labelledby="acc-btn-2">
+                    <button id="acc-btn-2" class="accordion-header" aria-expanded="false" aria-controls="acc-content-2">
+                        <span>Late Submission Penalty</span>
+                        <span class="icon" aria-hidden="true">+</span>
+                    </button>
+                    <div id="acc-content-2" class="accordion-content">
+                        <p>1 day late: -10% | 2 days late: -20% | 3 days late: -30%. Projects submitted more than 3 days
+                            late earn 0 HP (points).</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item brutal-card" role="region" aria-labelledby="acc-btn-3">
+                    <button id="acc-btn-3" class="accordion-header" aria-expanded="false" aria-controls="acc-content-3">
+                        <span>AI & Academic Integrity</span>
+                        <span class="icon" aria-hidden="true">+</span>
+                    </button>
+                    <div id="acc-content-3" class="accordion-content">
+                        <p>Use AI to ideate, not to do the work. Any AI-generated asset MUST be credited with the exact
+                            prompt used. Submitting pure AI work as your own or stealing designs will result in
+                            disciplinary action.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer section-spacing brutal-footer">
+        <div class="container text-center footer-content">
+            <!-- Floating Decorations for Footer -->
+            <div class="decoration dec-foot-1">🎉</div>
+            <div class="decoration dec-foot-2">🔥</div>
+            <div class="decoration dec-foot-3">📱</div>
+
+            <h2 class="hero-title footer-title">Let's Create Magic 🪄</h2>
+            <p class="section-desc footer-desc">NMC104 Digital Design &bull; NMC (New Media and Communication
+                Department)</p>
+
+            <a href="#" class="brutal-button bg-pink text-white footer-btn">Back to Top ↑</a>
+
+            <p class="footer-credit">Designed with 💕 for Generation Alpha.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

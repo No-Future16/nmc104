@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Vercel
+.vercel/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
